@@ -10,47 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
-
-/* h1 {
-  font-size: 50px;
-  line-height: 64px;
-  color: #222;
-}
-
-h2 {
-  font-size: 46px;
-  line-height: 54px;
-  color: #222;
-}
-
-h4 {
-  font-size: 20px;
-  color: #222;
-}
-
-h6 {
-  font-weight: 700;
-  font-size: 12px;
-}
-
-p {
-  font-size: 16px;
-  color: #465b52;
-  margin: 15px 0 20px 0;
-}
-
-.section-p1 {
-  padding: 40px 80px;
-}
-
-.section-m1 {
-  margin: 40px 0;
-}
-
-body {
-  width: 100%;
-} */
 #header{
   display: flex;
   align-items: center;
@@ -273,8 +232,6 @@ body {
   margin: 40px 0px 10px;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 40px;
-  /* border: 2px solid; */
 }
 .box3 img{
   width: 100%;
@@ -827,7 +784,8 @@ border: transparent;
    #tab i{
     color: black;
     font-size: 24px;
-    padding-left: 20px;
+    /* padding-left: 30px; */
+    padding: 0 10px ;
    }
    #tab i:hover{
     color: #088178;
@@ -862,7 +820,7 @@ border: transparent;
  
   .box1 {
     margin-top: 15px;
-    width: 70%;
+    width: 55%;
     height: 190px;
     /* border: 1px solid; */
     margin-right: 80px;
@@ -926,6 +884,9 @@ border: transparent;
      }
     #navbar li{
       margin-bottom: 25px;
+    }
+    #header{
+      padding: 20px 22px ;
     }
     #tab{
       display: flex;
